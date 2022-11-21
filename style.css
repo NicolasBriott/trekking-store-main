@@ -1,0 +1,474 @@
+.header {
+    background-image:url(".//images/paysage.png");
+    background-size:cover;
+    height:1300px;
+}
+
+.nav{
+    display:flex;
+    justify-content:space-between;
+    padding-left:100px;
+    padding-top:100px;
+    
+
+    
+}
+.panier {
+    color: white;
+    font-size: 2.5em;
+    margin-right:100px;
+    position:relative;
+    bottom:10px;
+}
+
+.logo {
+    height: 50px;
+    display:flex;
+    justify-content:left;
+   
+}
+
+.txt-menu {
+    margin-left:950px
+}
+
+.txt1-nav {
+    color:white;
+    text-decoration:none;
+    font-size:30px;
+    margin-right:100px;
+}
+
+.txt2-nav {
+    color:white;
+    text-decoration:none;
+    font-size:30px;
+    margin-right:100px;
+}
+
+.titre-nav {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding-top:300px;
+    
+}
+
+
+.titre-h1 {
+    color:white;
+    display:flex;
+    justify-content:center;
+}
+
+.txt-lorem {
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    font-size:25px;
+    color:white;
+}
+
+.our-clothing {
+    font-size:90px; 
+    padding-bottom: 15px;
+}
+
+
+.select-m-w {
+    background-color: #F5F6F7;
+    height:200px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.check_in_3 {
+    display:flex;
+    padding-left:160px;
+}
+
+.select1 { 
+    margin-left:35px;
+    margin-right:40px;
+    font-weight:bold;
+    font-size:25px;
+}
+
+.select2 {    
+    margin-left:35px;
+    margin-right:40px;
+    font-weight:bold;
+    font-size:25px;
+}
+
+.select3 {   
+    margin-left:35px;
+    margin-right:40px;
+    font-weight:bold;
+    font-size:25px;
+}
+
+.button {
+    background-color: #AA9B77;
+    width: 300px;
+    height:66px;
+    margin-right:210px;
+    font-size: 22px;
+    color:white;
+    border-radius:5px;
+    border: #AA9B77;
+}
+
+
+.section-men{
+    height: 100px;
+    background-color: white;
+    display: flex;
+}
+
+.txt-section-men{
+    padding-top: 80px;
+    padding-left: 210px;
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+
+.line{
+    background-color: rgb(136, 132, 132);
+    width: 1355px;
+    height: 2px;
+    margin-top: 100px;
+    margin-left: 70px;
+    
+}
+
+.un-sur-cinq{
+    display: flex;
+    width: 50px;
+    padding-top: 50px;
+   padding-left: 1660px;
+
+}
+
+.txt-un-sur-cinq{
+    font-weight: bold;
+    font-size: 20px;
+    color: #AA9B77;
+}
+
+
+
+
+
+.box-photo-top{
+    width: 1500px;
+    margin-left:210px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;  
+}
+
+.box-1{
+    width: 400px;
+    height: 490px;
+    background-color: #F5F6F7;
+    padding: 20px;
+}
+
+.tshirt-img{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.tshirt-m{
+    width: 200px;
+    height: 258.891px;
+    
+}
+
+.box-2{
+    width: 400px;
+    height: 490px;
+    background-color: #F5F6F7;
+    padding: 20px;
+}
+
+.pant-img{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.pant-m{
+    width: 200px;
+    height: 258.891px;
+    
+}
+
+
+.box-3{
+    width: 400px;
+    height: 490px;
+    background-color: #F5F6F7;
+    padding: 20px;
+}
+
+.backpack-img{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.backpack-m{
+    width: 200px;
+    height: 258.891px;
+    
+}
+
+.taille-couleur{
+    display: flex;
+}
+
+.txt-taille{
+    font-weight: bold;
+    font-size: 18px;
+    padding: 30px;
+}
+
+
+.couleurs{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cercle-bleu{
+    border-radius:50%;
+    width:30px;
+    height:30px;
+    color: #165EB9;
+}
+
+.cercle-jaune{
+    border-radius:50%;
+    width:30px;
+    height:30px;
+    color: #FFE637;
+}
+
+.cercle-gris{
+    border-radius:50%;
+    width:30px;
+    height:30px;
+    color: #535253;
+}
+
+
+
+.tshirt-prix{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;   
+    padding: 30px;
+}
+
+.txt-tshirt{
+    color: #AA9B77;
+    font-size: 18px;
+    
+    
+}
+
+.txt-prix{
+    font-size: 24px;
+}
+
+
+.section-woman{
+    height: 100px;
+    background-color: white;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.txt-section-woman{
+    padding-top: 80px;
+    padding-right: 190px;
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+
+.line2{
+    background-color: rgb(136, 132, 132);
+    width: 1338px;
+    height: 2px;
+    margin-top: 100px;
+    margin-right: 70px;
+    
+}
+
+.un-sur-cinq2{
+    display: flex;
+    width: 50px;
+    padding-top: 50px;
+   padding-left: 210px;
+
+}
+.txt-un-sur-cinq2{
+    font-weight: bold;
+    font-size: 20px;
+    color: #AA9B77;
+}
+
+
+
+
+
+.box-photo-bot{
+    width: 1500px;
+    margin-left:210px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;   
+}
+
+.box-4{
+    width: 400px;
+    height: 490px;
+    background-color: #F5F6F7;
+    padding: 20px;
+}
+
+.GIACKET-img{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.GIACKET-m{
+    width: 200px;
+    height: 258.891px;
+    
+}
+
+.box-5{
+    width: 400px;
+    height: 490px;
+    background-color: #F5F6F7;
+    padding: 20px;
+}
+
+.SHOE-img{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.SHOE-m{
+    width: 200px;
+    height: 258.891px;  
+}
+
+
+
+.box-6{
+    width: 400px;
+    height: 490px;
+    background-color: #F5F6F7;
+    padding: 20px;
+}
+
+.tshirtw-img{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.tshirt-w{
+    width: 200px;
+    height: 258.891px;
+    
+}
+
+.about-us{
+    height: 400px;
+    background-color: #AA9B77;
+}
+
+.txt-about-us{
+    color: #837659;
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 60px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.encadré{
+    width: 600px;
+    height: 300px;
+    border: black;
+    height: 2px;
+}
+
+.lorem{
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.twitter{
+    height: 80px;
+    background-color: #535253;
+}
+
+.logo-twitter{
+    display: flex;
+    align-items: center;
+    padding-left: 200px;
+    padding-top: 32px;
+     
+}
+
+.footer{
+    height: 400px;
+    background-color: #424242;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+}
+
+
+
+.TREKKING{
+    color: white;
+    font-size: 24px;
+}
+
+.lorem2{
+    padding-top: 30px;
+    color: white;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.infos{
+    color: white
+}
